@@ -2,8 +2,9 @@
 web:
 	cd apps/web && npm ci && npm run build
 build: web
+	rm -rf internal/webui/assets
 	mkdir -p internal/webui/assets bin
-	rm -rf internal/webui/assets/assets
+	touch internal/webui/assets/.keep
 	cp -R apps/web/dist/. internal/webui/assets/
 	go build -trimpath -o bin/localbackup ./cmd/localbackup
 run: build

@@ -51,7 +51,7 @@ final class Launcher: NSObject, NSApplicationDelegate {
         item = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         if let path = Bundle.main.path(forResource: "StatusIcon", ofType: "png"), let image = NSImage(contentsOfFile: path) {
             image.size = NSSize(width: 19, height: 19)
-            image.isTemplate = true
+            image.isTemplate = false
             item.button?.image = image
         } else {
             item.button?.title = "留档"

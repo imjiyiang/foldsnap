@@ -52,7 +52,7 @@ for size in 16 32 128 256 512; do
   sips -z "$retina" "$retina" assets/brand/app-icon.png --out "$iconset/icon_${size}x${size}@2x.png" >/dev/null
 done
 iconutil --convert icns --output "$app/Contents/Resources/AppIcon.icns" "$iconset"
-cp assets/brand/status-icon.png "$app/Contents/Resources/StatusIcon.png"
+sips -z 64 64 assets/brand/app-icon.png --out "$app/Contents/Resources/StatusIcon.png" >/dev/null
 cp LICENSE "$app/Contents/Resources/LICENSE"
 cp THIRD_PARTY_NOTICES.md "$app/Contents/Resources/THIRD_PARTY_NOTICES.md"
 codesign --force --deep --sign - "$app"

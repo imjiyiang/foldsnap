@@ -1871,7 +1871,7 @@ function App() {
 function Logo() {
   return (
     <span className="logo">
-      <img src="/brand-mark.svg" alt="" aria-hidden="true" />
+      <img src="/icon-192.png" alt="" aria-hidden="true" />
     </span>
   );
 }
