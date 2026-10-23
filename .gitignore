@@ -1,0 +1,45 @@
+node_modules/
+apps/web/dist/
+bin/
+.data/
+*.log
+.DS_Store
+internal/webui/assets/*
+!internal/webui/assets/.keep
+release/
+__pycache__/
+*.pyc
+
+.demo/
+
+.demo-targets/
+
+.demo-restores/
+
+# Local runtime state and credentials
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.db-*
+access.token
+fingerprint-integrity.key
+service-endpoint.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build/cache output
+*.tsbuildinfo
+*.iconset/
+.coverage/
+coverage/
+
+# Local editor files
+.idea/
+*.swp
+*.swo
