@@ -20,4 +20,4 @@ Foldsnap was previously named LocalBackup. This is a presentation change, not a 
 
 Do not rename any real repository or rewrite stored plan bindings for branding. The native launcher accepts both the new and legacy startup message prefixes so it can attach to an existing service. The package now produces `Foldsnap.app` and `Foldsnap-macOS.zip`; quit a running old instance before switching applications.
 
-Initial name searches are preliminary project research, not a trademark clearance. Public repository: https://github.com/jiyiiang/foldsnap.
+Initial name searches are preliminary project research, not a trademark clearance. Public repository: https://github.com/imjiyiang/foldsnap.

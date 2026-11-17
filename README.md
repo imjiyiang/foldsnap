@@ -20,7 +20,7 @@ Foldsnap 是基于 Go、React、SQLite 和 rsync 的 macOS 本地备份工具。
 需要 macOS、Go **1.26.4+**、Node.js **22.12+ 或 24+**、npm 和 Xcode Command Line Tools。macOS 自带 openrsync 可用；Homebrew rsync 3.x 可提供扩展属性支持。已构建应用不依赖 Node 或 Go。
 
 ```sh
-git clone https://github.com/jiyiiang/foldsnap.git
+git clone https://github.com/imjiyiang/foldsnap.git
 cd foldsnap
 make run
 ```
